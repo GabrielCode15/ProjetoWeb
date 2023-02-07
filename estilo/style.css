@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    background-color: rgba(218, 176, 68, 0.5);
+    min-height: 100vh;
+}
+
+
+header{
+    background-color: black;
+    color: white;
+    background-image: url(../Imagens/cabeçalho.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
+
+
+header > h1{
+    padding-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    padding-bottom: 10px;
+
+
+}
+
+header > p{
+
+    padding-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+
+main{
+    min-height: 95vh;
+    background-color: white;
+    max-width: 2000px;
+    margin: auto;
+    padding: 20px;
+    
+}
+
+
+
+section{
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    padding-left: 4vw;
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+    font-size: 16px;
+    text-indent: 10px;
+    font-weight: bold;
+    box-shadow: inset 5px 6px 8px 6px rgba(0, 0, 0, 0.432);
+
+}
+
+
+
+
+section.origins{
+    background-color: grey;
+    color: white;
+}
+
+section.origins > h1{
+
+    background-color: rgba(0, 0, 0, 0.445);
+    padding: 10px;
+    margin-bottom: 20px;
+   width: fit-content;
+   font-variant: small-caps;
+   font-weight: 800;
+   border-style: outset;
+   border-width: 3px;
+   border-radius: 10px;
+   border-color: rgb(139, 137, 137);
+   box-shadow: inset 4px 0px 0px 4px rgba(0, 0, 0, 0.445);
+   text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.514);
+}
+
+
+
+section.origins > p{
+    background-color: rgba(0, 0, 0, 0.459);
+    padding: 15px;
+  max-width: 380px;
+    text-align: justify;
+    
+
+}
+
+
+
+
+
+section.mirage{
+    background-color: lightgrey;
+    color: white;
+}
+
+section.mirage > h1{
+
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.457);
+    width: fit-content;
+    margin-bottom: 20px;
+    border-style: outset;
+    border-radius: 10px;
+    border-color: grey;
+}
+
+
+
+
+section.mirage > p{
+    background-color: rgba(0, 0, 0, 0.507);
+    padding:5px;
+    max-width:390px;
+    text-align: justify;
+    
+    
+}
+
+
+section#img01{
+    background-image: url('../Imagens/assassins-creed-origins.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+section#img02{
+    background-image: url(../Imagens/mirage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+
+
+
+section.valhala{
+    background-color: grey;
+    color: white;
+}
+
+section#img03{
+    background-image: url(../Imagens/valhala.jpg);
+    background-repeat:no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+section.valhala > p{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.598);
+    width: 390px;
+    text-align: justify;
+    
+}
+
+
+section.valhala > h1{
+
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.464);
+    width: fit-content;
+    border-style: outset;
+    border-color: grey;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
